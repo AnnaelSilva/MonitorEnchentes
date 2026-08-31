@@ -1,10 +1,10 @@
-# 🌊 AquaAlert - Sistema de Monitoramento Climático e Alertas de Enchente
+#  AquaAlert - Sistema de Monitoramento Climático e Alertas de Enchente
 
 Projeto acadêmico Full-Stack para monitoramento meteorológico e alertas colaborativos de enchentes em tempo real, integrando **React.js**, **Leaflet**, **FastAPI (Python)**, **Firebase Firestore** e a API pública **Open-Meteo**.
 
 ---
 
-## 📐 Arquitetura do Sistema
+##  Arquitetura do Sistema
 
 ```mermaid
 graph TD
@@ -24,7 +24,7 @@ graph TD
 
 ---
 
-## 🗂️ Estrutura de Diretórios
+## Estrutura de Diretórios
 
 ```text
 flood-monitor/
@@ -65,7 +65,7 @@ flood-monitor/
 
 ---
 
-## 🚀 Como Iniciar os Servidores Localmente
+##  Como Iniciar os Servidores Localmente
 
 ### 1. Terminal 1: Iniciar o Backend (FastAPI)
 
@@ -105,7 +105,7 @@ npm run dev
 
 ---
 
-## 🔥 Configuração do Firebase Firestore
+##  Configuração do Firebase Firestore
 
 Para conectar seu próprio banco de dados Firebase:
 
@@ -141,7 +141,7 @@ service cloud.firestore {
 
 ---
 
-## 📡 Endpoints da API (Backend FastAPI)
+##  Endpoints da API (Backend FastAPI)
 
 | Método | Rota | Descrição |
 |---|---|---|
@@ -181,7 +181,7 @@ service cloud.firestore {
 
 ---
 
-## 🎯 Dica para Apresentação Acadêmica
+##  Dica para Apresentação Acadêmica
 
 Para demonstrar a sincronização em tempo real:
 1. Abra duas janelas do navegador lado a lado em `http://localhost:5173`.
